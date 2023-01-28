@@ -493,13 +493,29 @@ color:rgb(71, 64, 64);
    }
 
 
+/* -----------------page 2 part 3  -------------- */
 
 
+.sect3{
+    margin: 40px auto;
+    font-size: 14px; 
+    color: #A6ADB4;
+    width: 1160px;
+
+}
 
 
+.elephant-text{
+margin-bottom: 40px;
+margin-top: 80px;
+
+}
 
 
-
+.sect3 p{
+font-weight: 400px;
+line-height: 26px;
+}
 
 
 
@@ -511,4 +527,4 @@ color:rgb(71, 64, 64);
   }
   .logo img{
     width: 100%;
-  } */ */
+  } */
