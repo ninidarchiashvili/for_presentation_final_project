@@ -11,18 +11,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 22px 22px;
-
-}
-
-.logo{
-  /* vertical-align: middle; */
-  /* margin-right: 200px; */
-    /* ანიმაციაა გასაკეთებელი */
-}
-
-nav{
- 
-    /* vertical-align: middle; */
 }
 
 header li{
@@ -31,9 +19,6 @@ header li{
     margin-right: 30px;
 }
 
-li a{
-    color: #343638;
-}
 
 .active{
     color: #343638;
@@ -180,10 +165,7 @@ i{
 .article1{
  padding-left: 140px;
  padding-right: 140px;
- margin: 0 auto;
- /* height: 410px; */
  border: 2px solid #0000ff;
- margin-bottom: 35px;
  margin: 35px auto;
  font-size: 24px; 
  display: flex;
@@ -207,15 +189,10 @@ gap: 34px;
 }
 
 .card{
-
-/* height: 320px; */
 display: flex;
 flex-direction: column;
-align-items: left;
 box-shadow: 0px 2px 4px rgb(0,32,26);
 border-radius: 15px;
-
-
 }
 
 .cardimg{
@@ -243,20 +220,14 @@ color: #A6ADB4;
 display: flex;
 flex-direction: column;
 text-align: left;
-
-
 }
 
 /* ----------------third part ---------------*/
 
 .section2{
 
- width:80% ;
-
+     width:80% ;
     border: 2px solid purple;
-    /* display: flex; */
-    margin: 0 auto;
-    margin-bottom: 35px;
     margin: 35px auto;
     font-size: 24px; 
 }
@@ -351,10 +322,8 @@ footer{
     height: 200px;
     border: 3px solid red;
     background-color: #9898ad;
-    /* justify-content: space-between; */
     width: 100%;
-    /* padding: 60px 70px 50px 70px; */
-  
+
 }
 
 footer p{
@@ -400,14 +369,14 @@ footer ul{
 }
 
 
- /* -----------------page 2 section 2 left side -------------- */
+ /* -----------------page 2 section 1 left side -------------- */
  
  
  .page2sect2{
 
+    width: 1160px;
     display: flex;
-    width: 100%;
-    margin: auto 0;
+    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -419,12 +388,12 @@ footer ul{
     width: 50%;
     height: 500px;
     background-image:  url(../images/img10.png);
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 11rem 6.1rem 11rem 8.7rem; */
+
 }
 
 .worldnews2{
@@ -433,6 +402,8 @@ footer ul{
     font-weight: bold;
     font-size: 30px;
 }
+
+ /* -----------------page 2 section 1 right side -------------- */
 
 .page2rightdiv2{
  margin: 0 auto;
@@ -468,53 +439,76 @@ color:rgb(71, 64, 64);
 }
 
 
-
-  /* -----------------section 1 right side -------------- */
-
-.rightdiv2{
-   
-   width: 50%;
-   height: 500px;
-   border: 2px solid green;
-   display: flex;
-   display: inline-block;
-   justify-content: center;
-   align-items: center;
-   
-}
-.part1{
-
-    border: 2px solid red;
-    width: 360px;
-    margin-top: 137px;
+/* -----------------page 2 article  -------------- */
  
-  
+
+.article-second-page{
+
+    /* border: 2px solid #0000ff; */
+    margin: 35px auto;
+    font-size: 16px; 
+    color: #A6ADB4;
+    width: 1160px;
+ 
 }
 
-.part1 input{
-
-    width: 360px;
-}
-
-.rightdiv2 a{
-    width: 134px;
-    margin-left: 110px;
-
-}
-
-.rightdiv2 h1{
-    font-size: 24px;
-    font-weight: bold;
+.main-div-article{
+    width: 1160px;
+    height: 255px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: left;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    
 
-}
+   }
 
+   .card-article{
+    width: 351px;
+    display: flex;
+    justify-content: spa;
+    flex-direction: column;
+    /* border: 3px solid green; */
+    margin-top: 42px;
+  
+ 
+    }
+   
+   .article-second-page img{
+    width: 40px;
+    height: 40px;
+
+   }
+   .article-second-page .largetext{
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     margin-top: 20px;
+   }
+   
+   
+
+   
+   .article-card{
+       margin: 50px 38px 64px 38px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 /* .logo{
     width: 70px;
     height: 16px;
   }
   .logo img{
     width: 100%;
-  } */
+  } */ */
