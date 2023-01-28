@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b64c1fd979.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!------------- header --------------------->
+
+      <header>
+        <!-- ლოგოზე  მჭირდება ანიმაცია -->
+        <a href="index.html">
+          <img class="logo" src="logo.svg" alt="logo" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="Home active">Home</a></li>
+            <li><a href="contact.html" class="world_news">World News</a></li>
+            <li>Photos</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!---------------Page 2 Section1-------------- -->
+
+      <section class="page2sect2">
+        <div class="forimg">
+          <p class="worldnews2">WORLD NEWS</p>
+        </div>
+        <div class="page2rightdiv2">
+          <form class="forms">
+            <div class="nameInputs">
+              
+                <span>Select a date</span>  
+                <input
+                type="date"
+                required="required"
+                onfocus="(this.type='date')"
+                id="date"
+                placeholder=""
+              />
+              
+            </div>
+
+            <div class="nameInputs">
+                <span>Enter the firts Keywords</span>
+              <input type="text" id="text" name="keyword" required="required" />
+              
+            </div>
+          </form>
+             <a href="https://www.google.com/"><button>SEARCH</button></a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
