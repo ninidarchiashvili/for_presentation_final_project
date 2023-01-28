@@ -15,14 +15,14 @@ header{
 }
 
 .logo{
-  vertical-align: middle;
-  margin-right: 200px;
+  /* vertical-align: middle; */
+  /* margin-right: 200px; */
     /* ანიმაციაა გასაკეთებელი */
 }
 
 nav{
  
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 header li{
@@ -109,21 +109,19 @@ color: #ffffff;
    width: 40%;
     display: flex;
     justify-content: center;
-     text-align: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    padding: 0 80px 0 100px;
 
 }
 
-.rightdiv h1{
+.right-div__title{
     font-size: 24px;
     font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: left;
-    
-
+    padding-bottom: 38px;
+    border-bottom: 1px solid  #ebeded;
+    width: 100%;
 }
+
 
 .Title1{
 
@@ -150,8 +148,6 @@ color: #ffffff;
 
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 79px;
 
 }
 
@@ -182,13 +178,16 @@ i{
 
 
 .article1{
- width:80%;
+ padding-left: 140px;
+ padding-right: 140px;
  margin: 0 auto;
- height: 410px;
+ /* height: 410px; */
  border: 2px solid #0000ff;
  margin-bottom: 35px;
  margin: 35px auto;
  font-size: 24px; 
+ display: flex;
+ flex-direction: column;
 }
 
 .article1 h1{
@@ -204,11 +203,12 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 border: 3px solid green;
+gap: 34px;
 }
 
 .card{
 
-height: 320px;
+/* height: 320px; */
 display: flex;
 flex-direction: column;
 align-items: left;
@@ -226,17 +226,18 @@ transform: scale(1);
 
 }
 
+.article-card{
+    margin: 50px 38px 64px 38px;
+}
+
 .article1 h2{
 font-size: 16px;
 font-weight: bold;
-margin-left: 40px;
-margin-top: 40px;
 }
 
 .article1 p{
 
 font-size: 13px;
-margin-left: 40px;
 margin-top: 16px;
 color: #A6ADB4;
 display: flex;
@@ -435,11 +436,36 @@ footer ul{
 
 .page2rightdiv2{
  margin: 0 auto;
+border: 2px solid red;
+width: 360px;
+}
 
+
+.formspan{
+margin-bottom: 8px;
 
 }
 
-.nameInputs
+.nameInputs{
+   display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: 2px solid black;
+
+}
+
+form input{
+font-size: 30px;
+border-radius: 10px;
+
+}
+
+.formspan{
+font-size: 17px;
+font-weight: bold;
+color:rgb(71, 64, 64);
+
+}
 
 
 
@@ -484,3 +510,11 @@ footer ul{
     align-items: left;
 
 }
+
+/* .logo{
+    width: 70px;
+    height: 16px;
+  }
+  .logo img{
+    width: 100%;
+  } */
